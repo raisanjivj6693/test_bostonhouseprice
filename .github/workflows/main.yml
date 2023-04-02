@@ -15,5 +15,5 @@ jobs:
       
       run: |
             echo "$DOCKER_PASSWORD" | docker login -u "raisanjivj6693" --password-stdin
-            docker image build -t raisanjivj6693/flaskhranalytics:latest .
-            docker push raisanjivj6693/flaskhranalytics:latest
+            docker image build -t raisanjivj6693/testbostonhouseprice:latest .
+            docker push raisanjivj6693/testbostonhouseprice:latest
